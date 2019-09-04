@@ -110,26 +110,6 @@ class NotificationViewController: UIViewController {
         else if dayID == 2 {
             tempStr = "Today is a White Day"
         }
-            
-        else if dayID == 3 {
-            tempStr = "School is cancelled today"
-        }
-            
-        else if dayID == 4 {
-            tempStr = "Today is a Red Day, with a 2 hour delay"
-        }
-            
-        else if dayID == 5 {
-            tempStr = "Today is a White Day, with a 2 hour delay"
-        }
-            
-        else if dayID == 6 {
-            tempStr = "Today is finals week"
-        }
-            
-        else if dayID == 7 {
-            tempStr = "Today is a midterm day"
-        }
         
         return tempStr
     }
