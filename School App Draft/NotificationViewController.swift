@@ -66,7 +66,6 @@ class NotificationViewController: UIViewController {
         0, 2, 1, 2, 1, 2, 0, //June 7-13
         0, 1, 2, 1, 2, 1, 0, //June 14-20
         0, 2, 1, 2, 1, 2, 0, //June 21-27
-        
     ]
     
     // detects and reacts to switch state changes
