@@ -155,7 +155,7 @@ class NotificationViewController: UIViewController {
         // setting the original date
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy/MM/dd"
-        let origDate = formatter.date(from: "2018/09/02") //must change this
+        let origDate = formatter.date(from: "2019/09/03") //must change this
        
         // Calculating the amount of days since the original date
         let diffInDays = Calendar.current.dateComponents([.day], from: origDate!, to: Date()).day
