@@ -110,7 +110,6 @@ class NotificationViewController: UIViewController {
         else if dayID == 2 {
             tempStr = "Today is a White Day"
         }
-        
         return tempStr
     }
     
