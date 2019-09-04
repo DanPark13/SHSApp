@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoforsyo.png" translatesAutoresizingMaskIntoConstraints="NO" id="91z-KR-JP5">
+                                <rect key="frame" x="16" y="169" width="343" height="164"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="91z-KR-JP5" secondAttribute="height" multiplier="343:164" id="KXZ-9R-uEv"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="Le0-1t-usU">
+                                <rect key="frame" x="16" y="434.5" width="343" height="16.5"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="The official app of Syosset High School">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="EiS-KV-7hF">
+                                <rect key="frame" x="84.5" y="341" width="206" height="74"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Mobile">
+                                        <attributes>
+                                            <color key="NSColor" red="0.65787822008132935" green="0.21553248167037964" blue="0.2118956446647644" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="64" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="truncatingTail" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="0.65787822009999997" green="0.2155324817" blue="0.2118956447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iOS Version Developed by Ryan Lefkowitz, Class of 2018" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="o3W-xz-gg8">
+                                <rect key="frame" x="24.5" y="467" width="326" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Updated by Daniel Park, Class of 2020" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" minimumFontSize="1" translatesAutoresizingMaskIntoConstraints="NO" id="MeE-d7-zZb">
+                                <rect key="frame" x="24" y="516" width="326" height="41"/>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="o3W-xz-gg8" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="16" id="1HU-HL-uQS"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="o3W-xz-gg8" secondAttribute="trailing" constant="16" id="3Ts-T6-Zzn"/>
+                            <constraint firstAttribute="trailing" secondItem="MeE-d7-zZb" secondAttribute="trailing" constant="25" id="CTp-GP-WtK"/>
+                            <constraint firstItem="o3W-xz-gg8" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="G9b-3c-gF0"/>
+                            <constraint firstItem="91z-KR-JP5" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" constant="-32" id="Gmt-Io-vkr"/>
+                            <constraint firstItem="EiS-KV-7hF" firstAttribute="top" secondItem="91z-KR-JP5" secondAttribute="bottom" constant="8" id="QUH-g8-g4n"/>
+                            <constraint firstItem="91z-KR-JP5" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="QdF-CY-9yj"/>
+                            <constraint firstItem="91z-KR-JP5" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="149" id="T50-RD-kFN"/>
+                            <constraint firstItem="MeE-d7-zZb" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="496" id="fEl-Mt-zsU"/>
+                            <constraint firstItem="Le0-1t-usU" firstAttribute="centerX" secondItem="91z-KR-JP5" secondAttribute="centerX" id="gLJ-XB-YAC"/>
+                            <constraint firstItem="MeE-d7-zZb" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="24" id="gaj-SJ-VI4"/>
+                            <constraint firstItem="EiS-KV-7hF" firstAttribute="centerX" secondItem="91z-KR-JP5" secondAttribute="centerX" id="gcf-Mz-1Ey"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" relation="greaterThanOrEqual" secondItem="o3W-xz-gg8" secondAttribute="bottom" constant="16" id="hPc-SW-OJD"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="MeE-d7-zZb" secondAttribute="bottom" constant="110" id="hfA-o1-rZR"/>
+                            <constraint firstItem="o3W-xz-gg8" firstAttribute="top" secondItem="Le0-1t-usU" secondAttribute="bottom" constant="16" id="krw-iO-5fi"/>
+                            <constraint firstItem="EiS-KV-7hF" firstAttribute="width" secondItem="91z-KR-JP5" secondAttribute="width" multiplier="0.6" id="qdz-kx-x5T"/>
+                            <constraint firstItem="Le0-1t-usU" firstAttribute="top" secondItem="EiS-KV-7hF" secondAttribute="bottom" constant="19.5" id="xX2-Ow-znp"/>
+                            <constraint firstItem="Le0-1t-usU" firstAttribute="width" secondItem="91z-KR-JP5" secondAttribute="width" id="yon-wm-zny"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logoforsyo.png" width="802" height="388"/>
+    </resources>
+</document>
