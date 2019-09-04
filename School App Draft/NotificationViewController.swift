@@ -23,49 +23,50 @@ class NotificationViewController: UIViewController {
     
     // Date Array
     let dates: [Int] = [
-        0, 0, 1, 2, 1, 2, 0, //September
-        0, 0, 0, 1, 2, 1, 0,
-        0, 2, 1, 0, 2, 1, 0,
-        0, 2, 1, 2, 1, 2, 0,
-        0, 1, 2, 1, 2, 1, 0, //October
-        0, 0, 2, 1, 2, 1, 0,
-        0, 2, 1, 2, 1, 2, 0,
-        0, 1, 2, 1, 2, 1, 0,
-        0, 2, 1, 2, 1, 2, 0,
-        0, 1, 2, 0, 1, 2, 0, // November 4 - November 10
-        0, 0, 1, 2, 1, 2, 0, // November 11 - November 17
-        0, 0, 2, 1, 0, 0, 0, // November 18 - November 24 G
-        0, 2, 1, 2, 1, 2, 0, // November 25 - December 1 G
-        0, 1, 2, 1, 2, 1, 0, // December 2 - December 8 G
-        0, 2, 1, 2, 1, 2, 0, // December 9 - December 15 G
-        0, 1, 2, 1, 2, 1, 0, // December 16 - December 22 G
-        0, 0, 0, 0, 0, 0, 0, // December 23 - December 29 G
-        0, 0, 0, 2, 1, 2, 0, // December 30 - January 5 G
-        0, 1, 2, 1, 2, 1, 0, // January 6 - January 12 G
-        0, 2, 1, 2, 1, 2, 0, // January 13 - January 19 G
-        0, 0, 7, 7, 7, 7, 0, // January 20 - January 26 G
-        0, 1, 2, 1, 2, 1, 0, // January 27 - February 2 G
-        0, 2, 0, 1, 2, 1, 0, // February 3 - February 9 G
-        0, 2, 1, 2, 1, 2, 0, // February 10 - February 16 G
-        0, 0, 0, 0, 0, 0, 0, // February Break
-        0, 1, 2, 1, 2, 1, 0, // February 24 - March 2 G
-        0, 2, 1, 2, 1, 2, 0, // March 3 - March 9 G
-        0, 1, 2, 1, 2, 1, 0, // March 10 - March 16 G
-        0, 2, 1, 2, 1, 2, 0, // March 17 - March 23 G
-        0, 1, 2, 1, 2, 1, 0, // March 24 - March 30 G
-        0, 2, 1, 2, 1, 2, 0, // March 31 - April 6 G
-        0, 1, 2, 1, 2, 1, 0, // April 7 - April 13 G
-        0, 2, 1, 2, 0, 0, 0, // April 14 - April 20 G
-        0, 0, 0, 0, 0, 0, 0, // April 21 - April 27 G
-        0, 1, 2, 1, 2, 1, 0, // April 28 - May 4 G
-        0, 2, 1, 2, 1, 2, 0, // May 5 - May 11 G
-        0, 1, 2, 1, 2, 1, 0, // May 12 - May 18 G
-        0, 2, 1, 2, 0, 0, 0, // May 19 - May 25 g
-        0, 0, 1, 2, 1, 2, 0, // May 26 - June 1 G
-        0, 1, 0, 2, 1, 2, 0, // June 2 - June 8 G
-        0, 1, 2, 1, 2, 1, 0, // June 9 - June 15 G
-        0, 2, 1, 2, 1, 2, 0, // June 16 - June 22 G
-        0, 1, 2, 1, 0, 0, 0, // June 23 - June 28 G
+        0, 0, 1, 2, 1, 2, 0, //September 1-7
+        0, 1, 2, 1, 2, 1, 0, //September 8-14
+        0, 2, 1, 2, 1, 2, 0, //September 15-21
+        0, 1, 2, 1, 2, 1, 0, //September 22-28
+        0, 0, 0, 2, 1, 2, 0, //September 29 - October 5
+        0, 1, 2, 0, 1, 2, 0, //October 6-12
+        0, 0, 1, 2, 1, 2, 0, //October 13-19
+        0, 1, 2, 1, 2, 1, 0, //October 20-26
+        0, 2, 1, 2, 1, 2, 0, //October 27 - November 2
+        0, 1, 2, 1, 2, 1, 0, //November 3-Novmeber 9
+        0, 0, 2, 1, 2, 1, 0, //November 10-16
+        0, 2, 1, 2, 1, 2, 0, //November 17-23
+        0, 1, 2, 0, 0, 0, 0, //November 24-30
+        0, 1, 2, 1, 2, 1, 0, //December 1-7
+        0, 2, 1, 2, 1, 2, 0, //December 8-14
+        0, 1, 2, 1, 2, 1, 0, //December 15-21
+        0, 0, 0, 0, 0, 0, 0, //December 22-28
+        0, 0, 0, 0, 2, 1, 0, //December 29 - January 4
+        0, 2, 1, 2, 1, 2, 0, //January 5-11
+        0, 1, 2, 1, 2, 1, 0, //January 12-18
+        0, 0, 2, 1, 2, 1, 0, //January 19-25
+        0, 2, 1, 2, 1, 2, 0, //January 26 - February 1
+        0, 1, 2, 1, 2, 1, 0, //February 2-8
+        0, 2, 1, 2, 1, 2, 0, //February 9-15
+        0, 0, 0, 0, 0, 0, 0, //February 16-22
+        0, 1, 2, 1, 2, 1, 0, //February 23-29
+        0, 2, 1, 2, 1, 2, 0, //March 1-7
+        0, 1, 2, 1, 2, 1, 0, //March 8-14
+        0, 2, 1, 2, 1, 2, 0, //March 15-21
+        0, 1, 2, 1, 2, 1, 0, //March 22-28
+        0, 2, 1, 2, 1, 2, 0, //March 29 - April 4
+        0, 1, 2, 1, 0, 0, 0, //April 5-11
+        0, 0, 0, 0, 0, 0, 0, //April 12-18
+        0, 2, 1, 2, 1, 2, 0, //April 19-25
+        0, 1, 2, 1, 2, 1, 0, //April 26 - May 2
+        0, 2, 1, 2, 1, 2, 0, //May 3 - May 9
+        0, 1, 2, 1, 2, 1, 0, //May 10-16
+        0, 2, 1, 2, 1, 2, 0, //May 17-23 * Might need to change *
+        0, 0, 1, 2, 1, 2, 0, //May 24-30
+        0, 1, 2, 1, 2, 1, 0, //May 31 - June 6
+        0, 2, 1, 2, 1, 2, 0, //June 7-13
+        0, 1, 2, 1, 2, 1, 0, //June 14-20
+        0, 2, 1, 2, 1, 2, 0, //June 21-27
+        
     ]
     
     // detects and reacts to switch state changes
